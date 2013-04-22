@@ -1,5 +1,5 @@
 import urllib2
-response = urllib2.urlopen('http://pythonforbeginners.com/')
+response = urllib2.urlopen('http://google.com/')
 print response.info()
 html = response.read()
 # do something
